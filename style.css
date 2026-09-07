@@ -2,5 +2,10 @@ body {
     background: rgb(185, 171, 171)
 }
 p { 
-font-family: "Arial"
+font-family: "Helvetica"
+} 
+h1 { 
+font-family: Cursive 
+font-weight: bold;
+color: gray 
 } 
