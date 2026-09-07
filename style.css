@@ -4,7 +4,10 @@ body {
 p { 
 font-family: "Helvetica"
 } 
-h1 {  
-font-weight: bold;
-color: gray 
+html {
+    font-size 10px;
 } 
+h1 {  
+    font-size: 5rem;
+    font-weight: bold 
+}
