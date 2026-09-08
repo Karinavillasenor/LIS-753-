@@ -7,6 +7,7 @@ h1 {
     font-size: 3.0rem;
     color: white;
 }
+<h1 style="color: white;">About Me will be white</h1>
 
 p {
     font-family: SF Mono; 
