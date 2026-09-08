@@ -1,7 +1,6 @@
 body {
     background: rgb(185, 171, 171)
 }
-<h1 style="font-size: 35px">About Me</h1>
-<h1 style="font family:Open Sans">About Me</h1>
-<p style="font-size: 25px">My name is Karina and I am in the MLIS/MAYL program at Dominican University. I live in Chicago, IL.</p>
-<p style="font-family:Open Sans">My name is Karina and I am in the MLIS/MAYL program at Dominican University. I live in Chicago, IL.</p>
+h1 {
+  font: bold italic large / 2.5 serif;
+}
