@@ -1,8 +1,11 @@
 body {
     background: rgb(185, 171, 171)
 }
+
+<style>
 h1 {
   font: serif;
   font-size: 20px;
 }
     
+</style>
