@@ -3,11 +3,11 @@ body {
 }
 
 h1 { 
-    font-family: SF Mono;
-    font-size: 3.0rem;
+    font-family: "SF Mono";
+    font-size: 3rem;
     color: white;
 }
-<h1 style="color: white;">About Me will be white</h1>
+
 
 p {
     font-family: SF Mono; 
