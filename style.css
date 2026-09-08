@@ -1,13 +1,5 @@
 body {
     background: rgb(185, 171, 171)
 }
-p { 
-font-family: Cursive;
-} 
-html {
-    font-size 10px;
-} 
-h1 {  
-    font-size: 5rem;
-    font-weight: bold 
-}
+<p style="font-size: 15px">My name is Karina and I am in the MLIS/MAYL program at Dominican University. I live in Chicago, IL.</p>
+<p style="font-family:Quicksand">My name is Karina and I am in the MLIS/MAYL program at Dominican University. I live in Chicago, IL.</p>
