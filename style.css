@@ -22,6 +22,9 @@ ul {
     color: brown;
 }
 
+.card { 
+    border-radius: 6px; 
+}
 
 .about-me-section {
     background: gray; 
@@ -31,7 +34,10 @@ ul {
     width: 200px;
 }
 
-#
+#about-me {
+    border: 4px solid blue;
+
+} 
 
 
 
