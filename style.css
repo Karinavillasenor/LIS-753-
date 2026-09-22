@@ -22,6 +22,15 @@ ul {
     color: brown;
 }
 
-.about-me-section
+
+.about-me-section {
+    background: dark gray; 
+    color: white;
+    margin: 16px
+    padding: 32px;
+    width: 200px;
+}
+
+
 
 
