@@ -32,8 +32,6 @@ ul {
     margin: 16px
     padding: 32px;
     width: 200px;
-    display: flex;
-    flex-direction: row;
 }
 
 #about-me {
@@ -69,5 +67,5 @@ ul {
 }
 
 #main-navigation ul li a {
-    background-color: pink; 
+    background-color: dark gray; 
 } 
