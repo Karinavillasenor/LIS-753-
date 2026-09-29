@@ -50,7 +50,8 @@ ul {
 #main-navigation ul {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 12px;
     list-style: none'
     
 }
