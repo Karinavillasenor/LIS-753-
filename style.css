@@ -24,8 +24,6 @@ ul {
 
 .card { 
     border-radius: 2px; 
-    display: flex;
-    flex-direction: row;
 }
 
 .about-me-section {
