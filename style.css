@@ -47,3 +47,17 @@ ul {
     border: 4px solid pink;
 }
 
+#main-navigation ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none'
+    
+}
+
+#main-navigation ul li a {
+    padding: 8px 20px; 
+    background-color: gray;
+    color: white; 
+    font-weight: bold;
+}
