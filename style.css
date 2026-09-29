@@ -32,6 +32,8 @@ ul {
     margin: 16px
     padding: 32px;
     width: 200px;
+    display: flex;
+    flex-direction: row;
 }
 
 #about-me {
