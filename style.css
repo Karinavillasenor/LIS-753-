@@ -23,7 +23,7 @@ ul {
 }
 
 .card { 
-    border-radius: 6px; 
+    border-radius: 2px; 
 }
 
 .about-me-section {
@@ -52,7 +52,8 @@ ul {
     flex-direction: row;
     justify-content: center;
     gap: 12px;
-    list-style: none'
+    list-style: none;
+    margin: 36px; 
     
 }
 
@@ -64,3 +65,7 @@ ul {
     text-decoration: none; 
     text-align: center;
 }
+
+#main-navigation ul li a {
+    background-color: pink; 
+} 
