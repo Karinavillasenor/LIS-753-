@@ -29,9 +29,11 @@ ul {
 .about-me-section {
     background: gray; 
     color: white;
-    margin: 16px
+    margin: 16px;
     padding: 32px;
     width: 200px;
+    display: inline-block;
+    vertical-align: top; 
 }
 
 #about-me {
