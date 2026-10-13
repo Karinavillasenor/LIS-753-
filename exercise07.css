@@ -8,7 +8,8 @@ h2,
 p,
 label,
 td,
-caption {
+caption,
+thread {
   color: black;
   text-align: center;
   font-weight: bold; 
@@ -16,7 +17,7 @@ caption {
   font-size: 25px  
 }
     
-about-the-library: hover {
+about-the-library:hover {
     background-color: pink; 
 } 
 
