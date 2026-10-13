@@ -93,7 +93,7 @@ head {
     text-align: center;
 }
     
-.events {
+.library-events {
     display: flex; 
     flex-direction: column; 
     max-width: 800px;
@@ -131,6 +131,7 @@ head {
     margin: 1;
     padding: 10px;
     color: black;
+    font-family: sans-serif; 
 }
 
 .register-form { 
