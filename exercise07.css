@@ -86,7 +86,7 @@ td {
   cursor: pointer;
 }
 
-#registration input:hover {
+.registration input[type="submit"]:hover {
   background-color: gray;
 }
   
