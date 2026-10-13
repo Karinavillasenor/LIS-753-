@@ -54,14 +54,16 @@ section {
   flex-direction: column;
 }
 
-head {
+header {
     text-align: center;
+  height: 80px;
 }
 
 .events h1 {
     text-align: center;
     margin: 2;
     padding: 10px;
+    line-height: 80px
 }
 
 .upcoming-programs {
