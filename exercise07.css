@@ -35,7 +35,7 @@ h1 {
 
 .table {
   width: 100%;
-  mborder-collapse: collapse;
+  border-collapse: collapse;
 }
 caption {
   font-size: 20px;
@@ -132,9 +132,7 @@ h2 {
   width: 100%;
  flex-basis: auto;
 }
-.events {
-  overflow-x: auto;
-}
+
 
 
 
