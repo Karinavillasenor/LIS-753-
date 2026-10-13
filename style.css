@@ -81,6 +81,9 @@ label,
 td,
 caption {
   color: black;
+  text-align: center;
+  font weight: bold; 
+  font-family: sans serif; 
 }
 
 .content-conatiner {
