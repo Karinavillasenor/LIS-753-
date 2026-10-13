@@ -68,6 +68,14 @@ header {
     border: 1px solid;
 }
 
+h1 {
+  text-align:center;
+    margin: 1;
+    padding: 10px;
+    color: black;
+    font-family: sans-serif; 
+}
+
 .register h2 {
     text-align:center;
     margin: 1;
