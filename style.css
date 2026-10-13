@@ -74,26 +74,48 @@ ul {
     background-color: pink; 
 } 
 
-body {
-    font-family: sans-serif;
+.events {
+    display: flex; 
+    flex-direction: column; 
+    max-width: 800px;
     margin: 20px;
 }
 
-.event-table {
-    display: flex; 
-    flex-direction: columm;
-}
-
-.event-caption {
-    font-size: 15px;
-    font-weight: bold; 
+.events h2 {
     text-align: center;
+    margin: 1;
+    padding: 10px;
 }
 
 .event-row {
     display: flex;
-    flex-direction: column;
 }
+
+.event-cell {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid;
+}
+
+.event-header {
+    font-weight: bold;
+}
+
+.register-form { 
+    display: flex; 
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+    
+
 
 
 
