@@ -101,6 +101,13 @@ ul {
     font-weight: bold;
 }
 
+.register h1 {
+    text-align-center;
+    margin: 1;
+    padding: 10px;
+    text-color: black;
+}
+
 .register-form { 
     display: flex; 
     flex-direction: column;
