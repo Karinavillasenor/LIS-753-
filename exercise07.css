@@ -51,7 +51,10 @@ caption {
   margin-bottom: 10px;
 }
 
-th,
+th {border: 1px solid;
+  padding: 10px;
+  text-align: left;
+}  
 td {
   border: 1px solid;
   padding: 10px;
