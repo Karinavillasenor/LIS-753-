@@ -39,16 +39,6 @@ table {
   display: flexbox;
 }
 
-.your-name,
-.your-email,
-.select-a-program {
-  text-align: center;
-  font-style: sans-serif;
-  letter-spacing: 3px;
-  column-gap: 5px;
-  display: flexbox;
-}
-
 section {
   display: flexbox;
   flex-direction: column;
