@@ -27,10 +27,15 @@ table {
   letter-spacing: 3px;
 }
 
-td { 
+form {
   text-align: center;
+  font-style: sans-serif;
+  letter-spacing: 3px;
 }
-  
+
+
+
+
 head {
     text-align: center;
 }
