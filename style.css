@@ -129,7 +129,12 @@ ul {
 . container {
     display: grid;
 }
-    
+
+.events,
+  .registration {
+    width: 100%;
+    box-sizing: border-box;
+  }
 
 
 
