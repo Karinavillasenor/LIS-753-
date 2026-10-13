@@ -10,10 +10,9 @@ td,
 caption {
   color: black;
   text-align: center;
-  font weight: bold; 
+  font-weight: bold; 
   font-family: sans serif; 
-  font-size: 25px
-  display: flexbox;  
+  font-size: 25px  
 }
     
 h1,
@@ -25,10 +24,12 @@ caption: hover {
     background-color: pink; 
 } 
 
-.content-container {
-  display: grid;
-  grid-direction: row;
-  gap: 35px;
+form {
+   color: black;
+  text-align: center;
+  font-weight: bold; 
+  font-family: sans serif; 
+  font-size: 25px  
 }
 
 table {
@@ -36,7 +37,6 @@ table {
   font-style: sans-serif;
   letter-spacing: 3px;
   column-gap: 10px;
-  display: flexbox;
 }
 
 section {
