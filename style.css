@@ -74,6 +74,15 @@ ul {
     background-color: pink; 
 } 
 
+h1,
+h2,
+p,
+label,
+td,
+caption {
+  color: black;
+}
+
 .content-conatiner {
     display: flex; 
     flex-direction: row;
