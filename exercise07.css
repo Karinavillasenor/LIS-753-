@@ -15,12 +15,7 @@ caption {
   font-size: 25px  
 }
     
-h1,
-h2,
-p,
-label,
-td,
-caption: hover {
+about-the-library: hover {
     background-color: pink; 
 } 
 
