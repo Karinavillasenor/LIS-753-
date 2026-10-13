@@ -79,10 +79,10 @@ td {
 }
 
 .registration input[type="submit"] {
-  background-color: gray;
+  background-color: blue;
   color: white;
-  padding: 10px 20px;
-  border: none;
+  padding: 15px 20px;
+  border: solid;
   cursor: pointer;
 }
 
@@ -91,6 +91,19 @@ td {
   padding: 20px;
   background-color: white;
   border-radius: 8px;
+}
+
+.main-content {
+  flex-direction: column;
+}
+
+.events {
+  width: 100%;
+  box-sizing: border-box;
+}
+.registration {
+  width: 100%;
+  box-sizing: border-box;
 }
 
 
