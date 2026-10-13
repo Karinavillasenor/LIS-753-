@@ -30,7 +30,9 @@ table {
 
 .your-name,
 .your-email,
-.select-a-program {
+.select-a-program,
+.in-person,
+.online {
   text-align: center;
   font-style: sans-serif;
   letter-spacing: 3px;
