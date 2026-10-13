@@ -26,6 +26,9 @@ table {
   letter-spacing: 3px;
 }
 
+td { 
+  text-align: center;
+}
   
 head {
     text-align: center;
