@@ -17,9 +17,13 @@ thread {
   font-size: 25px  
 }
     
-about-the-library:hover {
-    background-color: pink; 
-} 
+about-the-library {
+color: black;
+  text-align: center;
+  font-weight: bold; 
+  font-family: sans serif; 
+  font-size: 25px  
+}
 
 form {
   color: black;
@@ -48,16 +52,19 @@ header {
 }
 
 events h1 {
-    text-align: center;
-    margin: 2;
-    padding: 10px;
-    line-height: 80px
+    color: black;
+  text-align: center;
+  font-weight: bold; 
+  font-family: sans serif; 
+  font-size: 25px  
 }
 
 upcoming-programs {
-    text-align: center;
-    margin: 2;
-    padding: 12px;
+    color: black;
+  text-align: center;
+  font-weight: bold; 
+  font-family: sans serif; 
+  font-size: 25px  
 }
 
 .event-row {
@@ -98,7 +105,7 @@ h1 {
     gap: 12px;
 }
 
-.events,
+  .library-events,
   .register {
     width: 100%;
     box-sizing: border-box;
