@@ -46,14 +46,14 @@ header {
   height: 80px;
 }
 
-.events h1 {
+events h1 {
     text-align: center;
     margin: 2;
     padding: 10px;
     line-height: 80px
 }
 
-.upcoming-programs {
+upcoming-programs {
     text-align: center;
     margin: 2;
     padding: 12px;
