@@ -80,12 +80,17 @@ body {
 .event-table {
     display: flex; 
     flex-direction: columm;
-    flex-wrap: wrap;
 }
+
 .event-caption {
     font-size: 15px;
     font-weight: bold; 
     text-align: center;
+}
+
+.event-row {
+    display: flex;
+    flex-direction: column;
 }
 
 
