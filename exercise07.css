@@ -103,12 +103,8 @@ caption {
   border-radius: 8px;
 }
 
-.main-content {
-  flex-direction: column;
-}
-
 .registration {
-  width: 100%;
+  width: 60%;
   box-sizing: border-box;
 }
 
