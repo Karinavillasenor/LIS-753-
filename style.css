@@ -98,8 +98,14 @@ caption {
 
 .events h2 {
     text-align: center;
-    margin: 1;
+    margin: 2;
     padding: 10px;
+}
+
+.upcoming-programs {
+    text-align: center;
+    margin: 2;
+    padding: 12px;
 }
 
 .event-row {
