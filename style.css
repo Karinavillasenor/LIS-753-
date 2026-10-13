@@ -72,7 +72,14 @@ ul {
     background-color: pink; 
 } 
 
+body {
+   background: gray;
+}
 
+body { 
+    display: grid;
+    grid-gap: 1em;
+}
 
 
 
