@@ -23,6 +23,7 @@ h1 {
   gap: 25px;
   margin: 0;
   text-align: center;
+  justify-content: center;
 }
 
 .events {
