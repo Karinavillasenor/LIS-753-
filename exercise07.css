@@ -37,7 +37,10 @@ table {
   column-gap: 5px;
 }
 
-
+section {
+  display: flexbox;
+  flex-direction: column;
+}
 
 
 
