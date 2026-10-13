@@ -14,12 +14,18 @@ caption {
   font-family: sans serif; 
 }
 
-.content-conatiner {
-    display: flex; 
-    flex-direction: row;
-    gap: 35px;
+.content-container {
+  display: grid;
+  grid-direction: row;
+  gap: 35px;
 }
 
+table {
+  text-align: center;
+  font-family: sans;serif;
+}
+
+  
 head {
     text-align: center;
 }
@@ -44,10 +50,6 @@ head {
     flex: 1;
     padding: 10px;
     border: 1px solid;
-}
-
-.event-header {
-    font-weight: bold;
 }
 
 .register h2 {
