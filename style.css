@@ -92,15 +92,8 @@ caption {
 head {
     text-align: center;
 }
-    
-.library-events {
-    display: flex; 
-    flex-direction: column; 
-    max-width: 800px;
-    margin: 20px;
-}
 
-.events h2 {
+.events h1 {
     text-align: center;
     margin: 2;
     padding: 10px;
@@ -126,7 +119,7 @@ head {
     font-weight: bold;
 }
 
-.register h1 {
+.register h2 {
     text-align-center;
     margin: 1;
     padding: 10px;
