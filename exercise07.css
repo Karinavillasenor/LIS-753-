@@ -25,8 +25,7 @@ thread {
 
 .events {
   flex: 2;
-  padding: 20px;
-  border-radius: 14px;
+  min-width: 0;
 }
 
 .registration {
@@ -35,7 +34,7 @@ thread {
   border-radius: 10px;
 }
 
-table {
+.events table {
   width: 100%;
   border-collapse: collapse;
 }
@@ -51,11 +50,12 @@ caption {
   margin-bottom: 10px;
 }
 
-th {border: 1px solid;
+.events th {
+  border: 1px solid;
   padding: 10px;
   text-align: left;
 }  
-td {
+.events td {
   border: 1px solid;
   padding: 10px;
   text-align: left;
