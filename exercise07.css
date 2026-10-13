@@ -25,7 +25,7 @@ caption: hover {
 } 
 
 form {
-   color: black;
+  color: black;
   text-align: center;
   font-weight: bold; 
   font-family: sans serif; 
@@ -33,10 +33,11 @@ form {
 }
 
 table {
+  color: black;
   text-align: center;
-  font-style: sans-serif;
-  letter-spacing: 3px;
-  column-gap: 10px;
+  font-weight: bold; 
+  font-family: sans serif; 
+  font-size: 25px  
 }
 
 section {
