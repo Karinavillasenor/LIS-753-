@@ -25,12 +25,16 @@ table {
   text-align: center;
   font-style: sans-serif;
   letter-spacing: 3px;
+  column-gap: 10px;
 }
 
-form {
+.your-name,
+.your-email,
+.select-a-program {
   text-align: center;
   font-style: sans-serif;
   letter-spacing: 3px;
+  column-gap: 5px;
 }
 
 
