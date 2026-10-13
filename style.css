@@ -120,12 +120,9 @@ ul {
     gap: 12px;
 }
 
-.container > div {
-  border-radius: 5px;
-  padding: 10px;
-  border: 2px solid rgb(79 185 227);
+. container {
+    display: grid;
 }
-
     
 
 
