@@ -20,11 +20,14 @@ caption {
   gap: 35px;
 }
 
-table {
+.book-club {
   text-align: center;
-  font-family: sans;serif;
+  font-family: sans-serif;
 }
-
+.story-time {
+  text-align: center;
+  font-family: sans-serif;
+}
   
 head {
     text-align: center;
