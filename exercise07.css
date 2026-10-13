@@ -1,6 +1,6 @@
 body {
   background: beige;
-  margin: 1;
+  font-family: sans-serif;
 }
 
 h1,
@@ -13,37 +13,31 @@ thread {
   color: black;
   text-align: center;
   font-weight: bold; 
-  font-family: sans serif; 
   font-size: 25px  
 }
     
-about-the-library {
-color: black;
-  text-align: center;
-  font-weight: bold; 
-  font-family: sans serif; 
-  font-size: 25px  
+.main-content {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: flex-start;
 }
 
-form {
-  color: black;
-  text-align: center;
-  font-weight: bold; 
-  font-family: sans serif; 
-  font-size: 25px  
+.events {
+  flex: 2;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.registration {
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 table {
-  color: black;
-  text-align: center;
-  font-weight: bold; 
-  font-family: sans serif; 
-  font-size: 25px  
-}
-
-section {
-  display: flexbox;
-  flex-direction: column;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 header {
@@ -51,65 +45,53 @@ header {
   height: 80px;
 }
 
-events h1 {
-    color: black;
-  text-align: center;
-  font-weight: bold; 
-  font-family: sans serif; 
-  font-size: 25px  
+caption {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-upcoming-programs {
-    color: black;
-  text-align: center;
-  font-weight: bold; 
-  font-family: sans serif; 
-  font-size: 25px  
+th,
+td {
+  border: 1px solid;
+  padding: 10px;
+  text-align: left;
 }
 
-.event-row {
-    display: flex;
+.registration form div {
+  margin-bottom: 15px;
 }
 
-.event-cell {
-    flex: 1;
-    padding: 10px;
-    border: 1px solid;
+.registration label {
+  display: block;
+  margin-bottom: 5px;
+}
+.registration input[type="text"],
+.registration input[type="email"],
+.registration select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
 }
 
-h1 {
-    text-align:center;
-    margin: 1;
-    padding: 10px;
-    color: black;
-    font-family: sans-serif; 
+.registration input[type="radio"] + label {
+  display: inline;
 }
 
-.register h2 {
-    text-align:center;
-    margin: 1;
-    padding: 10px;
-    color: black;
-    font-family: sans-serif; 
+.registration input[type="submit"] {
+  background-color: #23476b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }
 
-.register-form { 
-    display: flex; 
-    flex-direction: column;
-    gap: 12px;
+.about {
+  margin-top: 25px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
 }
-
-.form-row {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-  .library-events,
-  .register {
-    width: 100%;
-    box-sizing: border-box;
-  }
 
 
 
