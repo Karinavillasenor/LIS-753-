@@ -1,5 +1,5 @@
 body {
-  background: beige;
+  background: light-blue;
   font-family: sans-serif;
 }
 
@@ -74,7 +74,7 @@ td {
   padding: 8px;
 }
 
-.registration input[type="radio"] + label {
+.registration input[type="radio"] {
   display: inline;
 }
 
