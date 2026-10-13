@@ -74,6 +74,12 @@ ul {
     background-color: pink; 
 } 
 
+.content-conatiner {
+    display: flex; 
+    flex-direction: row;
+    gap: 20px;
+}
+
 .events {
     display: flex; 
     flex-direction: column; 
