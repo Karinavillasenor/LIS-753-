@@ -126,11 +126,15 @@ h2 {
   border-left: 5px solid;
 }
 
-.events,
-.about,
+.events {
+  flex: 2;
+}
+.about {
+  flex: 2;
+}
+
 .registration {
-  width: 100%;
- flex-basis: auto;
+  flex: 2;
 }
 
 
