@@ -19,8 +19,9 @@ thread {
 .main-content {
   display: flex;
   flex-direction: row;
-  gap: 20px;
   align-items: flex-start;
+  gap: 30px;
+  margin: 20px;
 }
 
 .events {
@@ -28,26 +29,9 @@ thread {
   min-width: 0;
 }
 
-.registration {
-  flex: 1;
-  padding: 20px;
-  border-radius: 10px;
-}
-
 .events table {
   width: 100%;
-  border-collapse: collapse;
-}
-
-header {
-  text-align: center;
-  height: 65px;
-}
-
-caption {
-  font-size: 10px;
-  font-weight: bold;
-  margin-bottom: 10px;
+  min-width: 0;
 }
 
 .events th {
@@ -61,10 +45,14 @@ caption {
   text-align: left;
 }
 
-.registration form div {
+.registration {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+}
+.registration form > div {
   margin-bottom: 15px;
 }
-
 .registration label {
   display: block;
   margin-bottom: 5px;
@@ -92,6 +80,21 @@ caption {
 .registration input[type="submit"]:hover {
   background-color: gray;
 }
+.events table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+header {
+  text-align: center;
+  height: 65px;
+}
+
+caption {
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
   
 .about {
   margin-top: 25px;
@@ -104,10 +107,6 @@ caption {
   flex-direction: column;
 }
 
-.events {
-  width: 100%;
-  box-sizing: border-box;
-}
 .registration {
   width: 100%;
   box-sizing: border-box;
