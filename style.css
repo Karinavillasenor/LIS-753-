@@ -126,7 +126,7 @@ ul {
     gap: 12px;
 }
 
-.container {
+.content-container {
     display: grid;
 }
 
