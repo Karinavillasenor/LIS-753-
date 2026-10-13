@@ -89,6 +89,10 @@ caption {
     gap: 35px;
 }
 
+head {
+    text-align: center;
+}
+    
 .events {
     display: flex; 
     flex-direction: column; 
