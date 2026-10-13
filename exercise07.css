@@ -13,26 +13,26 @@ thread {
   color: black;
   text-align: center;
   font-weight: bold; 
-  font-size: 35px  
+  font-size: 18px  
 }
     
 .main-content {
   display: flex;
   flex-direction: row;
-  gap: 25px;
+  gap: 20px;
   align-items: flex-start;
 }
 
 .events {
   flex: 2;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 14px;
 }
 
 .registration {
   flex: 1;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 table {
@@ -42,7 +42,7 @@ table {
 
 header {
   text-align: center;
-  height: 80px;
+  height: 65px;
 }
 
 caption {
