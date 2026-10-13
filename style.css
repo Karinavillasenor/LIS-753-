@@ -73,8 +73,20 @@ ul {
 } 
 
 body {
-    display: flex;
-    ) 
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.event-table {
+    display: flex; 
+    flex-direction: columm;
+    flex-wrap: wrap;
+}
+.event-caption {
+    font-size: 15px;
+    font-weight: bold; 
+    text-align: center;
+}
 
 
 
