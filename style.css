@@ -95,6 +95,10 @@ table caption {
 
 .container {
     background: white;
+    padding: 12px;
+    margin: 0 auto;
+    max-width: 98%;
+    box-szing: border-box;    
 }
         
 @media all and (min-width: 375px) {
@@ -103,16 +107,17 @@ table caption {
 
 @media all and (min-width: 768px) {
     
+    .container {
+        max-width: 80%;
+    }
 
 @media all and (min-width: 1200px) {
-    .container {
+    
+.container {
     width: 1000px;
-    margin: 0 auto;
-    background: white;
     padding: 18px 56px;
-    box-sizing: border-box;
 }
-  main {
+main {
     display: flex;
     column-gap: 60px;
     justify-content: space-around;
