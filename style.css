@@ -8,7 +8,7 @@ h1,h2 {
     font-family: "Gill Sans", sans-serif;
     font-size: 32px;
     font-weight: bold;
-    color: pink;
+    color: black;
     text-align: center;
 }
 
@@ -27,7 +27,7 @@ p {
 ul {
     font-family: "Gill Sans", sans-serif; 
     font-size: 16px;
-    color: pink;
+    color: black;
 }
 
 .card { 
@@ -60,7 +60,7 @@ ul {
 #main-navigation ul li a {
     padding: 5px 12px; 
     background-color: gray;
-    color: white; 
+    color: black; 
     font-weight: bold;
     text-decoration: none; 
     text-align: center;
