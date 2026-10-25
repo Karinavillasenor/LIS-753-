@@ -74,3 +74,28 @@ ul {
     background-color: pink; 
 } 
 
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 50px 56px;
+    box-sizing: border-box;
+}
+    
+main {
+    display: flex;
+    column-gap: 60px;
+    justify-content: space-around;
+}
+
+main article {
+    width: calc(100%-280px-60px);
+}
+
+main article table {
+    width: 100%;
+}
+    
+main aside {
+    width: 280px;
+}
