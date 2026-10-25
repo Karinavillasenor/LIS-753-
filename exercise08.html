@@ -1,1 +1,88 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Events and Programs</title>
+    <link href="exercise07.css" rel="stylesheet" />
+  </head>
+  
+<body>
 
+<h1>Library Events</h1>
+<div class="main content">
+<section class="events">
+<table> 
+  <caption>Upcoming Programs</caption>
+  <thead>
+     <tr>
+       <th>Program</th>
+       <th>Date</th>
+       <th>Time</th>
+       <th>Location</th>
+     </tr>
+  </thead>
+   <body>
+     <tr>
+       <td>Book Club</td>
+       <td>Oct. 8</td>
+       <td>6:30 PM</td>
+       <td>Room A</td>
+     </tr>
+     <tr>
+       <td>Story Time</td>
+       <td>Oct. 10</td>
+       <td>10:00 AM</td>
+       <td>Children's</td>
+     </tr>
+     <tr>
+       <td>Genealogy</td>
+       <td>Oct. 12</td>
+       <td>2:00 PM</td>
+       <td>Room B</td>
+     </tr>
+   </body>
+</table>
+</section>
+
+<section class="registration">
+<h2>Register</h2>
+<form>
+  <div>
+    <label for="name">Your Name</label>
+    <input type="text" name="name" placeholder="Your Name">
+  </div>
+  <div>
+    <label for="email">Your Email</label>
+    <input type="email" name="email" placeholder="Your Email">
+  </div>
+  <div>
+    <label for="program">Select a program</label>
+    <select name="program">
+      <option value="book-club">Book Club</option>
+      <option value="story-time">Story Time</option>
+      <option value="genealogy">Genealogy</option>
+    </select>
+  </div>
+  
+  <div>
+    <input type="radio" value="In Person" name="in-person"
+    <label for="in person">In Person</label>
+  </div>
+  <div>
+    <input type="radio" value="Online" name="online"
+    <label for="online">Online</label>
+  </div>
+  <div>
+    <input type="submit" value="Register">
+  </div>
+</form>
+</section>
+  <section class="about">
+  <h2>About the Library</h2>
+  <p>The library is located at 1234 W. 12th St., Chicago, IL 60629</p>
+  <p>We are open from 9 a.m. to 8 p.m. Monday-Saturday</p>
+  </section>
+
+  </body>
+</html>
