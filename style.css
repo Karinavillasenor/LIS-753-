@@ -21,7 +21,7 @@ header h1 {
 p {
     font-family: "Gill Sans", sans-serif; 
     font-size: 25px;
-    color: white;
+    color: black;
 }
 
 ul {
@@ -68,7 +68,7 @@ ul {
 }
 
 #main-navigation ul li a {
-    padding: 8px 20px; 
+    padding: 5px 12px; 
     background-color: gray;
     color: white; 
     font-weight: bold;
@@ -108,7 +108,7 @@ table caption {
     .container {
     width: 1000px;
     margin: 0 auto;
-    background: brown;
+    background: white;
     padding: 18px 56px;
     box-sizing: border-box;
 }
