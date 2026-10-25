@@ -105,13 +105,11 @@ table caption {
 
 
 @media all and (min-width: 768px) {
-    
-.container {
-        max-width: 80%;
-    }
+
 #main-navigation ul {
     flex-direction: row;
     gap: 12px;
+    justify-content: center;
 }
 
 @media all and (min-width: 1200px) {
