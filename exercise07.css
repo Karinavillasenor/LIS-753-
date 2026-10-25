@@ -18,17 +18,19 @@ h1 {
     
 .main-content {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: flex-start;
   gap: 25px;
-  margin: 0;
+  width: 100%
+  max-width: 1200px;
+  margin: 0 auto;
   text-align: center;
   justify-content: center;
 }
 
 .events {
-  flex: 2;
-  flex-direction: row;
+  flex: 1;
   min-width: 0;
   background-color: white;
   padding: 20px;
@@ -56,9 +58,9 @@ td {
   color: white;
 }
 
-.programs,
 .registration {
   flex: 1;
+  min-width: 0;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
@@ -123,7 +125,7 @@ h2 {
   
 .about {
   flex: 1;
-  margin-top: 15px;
+  margin-top: 0;
   padding: 22px;
   background-color: white;
   border-radius: 8px;
