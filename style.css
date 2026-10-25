@@ -80,19 +80,39 @@ ul {
     background-color: pink; 
 } 
 
+
+header {
+    margin-bottom: 48px;
+}
+
+table {
+    margin-bottom: 36px; 
+}
+
+table caption {
+    text-align: left
+}
+
 .container {
+    background: white;
+}
+        
+@media all and (min-width: 375px) {
+    
+
+
+@media all and (min-width: 768px) {
+    
+
+@media all and (min-width: 1200px) {
+    .container {
     width: 1000px;
     margin: 0 auto;
     background: white;
     padding: 18px 56px;
     box-sizing: border-box;
 }
-
-header {
-    margin-bottom: 48px;
-}
-
-main {
+  main {
     display: flex;
     column-gap: 60px;
     justify-content: space-around;
@@ -109,11 +129,5 @@ main article table {
 main aside {
     width: 280px;
 }
-
-table {
-    margin-bottom: 36px; 
-}
-
-table caption {
-    text-align: left
-}
+  
+    
