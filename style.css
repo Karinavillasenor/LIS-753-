@@ -11,6 +11,11 @@ h1,h2 {
     color: pink;
 }
 
+header h1 {
+    margin-bottom: 0;
+    text-align: center;
+}
+    
     
 p {
     font-family: "Gill Sans", sans-serif; 
@@ -57,7 +62,7 @@ ul {
     justify-content: center;
     gap: 12px;
     list-style: none;
-    margin: 36px; 
+    margin: 12px 0 36px 0;
     
 }
 
@@ -78,10 +83,14 @@ ul {
     width: 1000px;
     margin: 0 auto;
     background: white;
-    padding: 50px 56px;
+    padding: 18px 56px;
     box-sizing: border-box;
 }
-    
+
+header {
+    margin-bottom: 48px;
+}
+
 main {
     display: flex;
     column-gap: 60px;
