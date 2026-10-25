@@ -109,3 +109,11 @@ main article table {
 main aside {
     width: 280px;
 }
+
+table {
+    margin-bottom: 36px; 
+}
+
+table caption {
+    text-align: left
+}
