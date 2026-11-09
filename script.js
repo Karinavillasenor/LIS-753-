@@ -10,7 +10,7 @@ button.addEventListener("click", function() {
   }
 });
 
-javascript
+
 function toggleBackground() {
     const currentBg = document.body.style.backgroundColor;
     
