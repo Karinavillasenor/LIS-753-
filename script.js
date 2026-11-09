@@ -10,8 +10,9 @@ button.addEventListener("click", function() {
   }
 });
 
-
-function toggleBackground() {
+document.body.style.backgroundColor = "pink";
+function changeColor() {
+    document.body.style.backgroundColor = "pink";
     const currentBg = document.body.style.backgroundColor;
     
     if (currentBg === 'purple') {
