@@ -9,3 +9,15 @@ button.addEventListener("click", function() {
     button.textContent = "Show message"
   }
 });
+
+javascript
+function toggleBackground() {
+    const currentBg = document.body.style.backgroundColor;
+    
+    if (currentBg === 'lightblue') {
+        document.body.style.backgroundColor = 'purple';
+    } else {
+        document.body.style.backgroundColor = 'pink';
+    }
+}
+button.addEventListener('click', toggleBackground);
