@@ -10,6 +10,8 @@ button.addEventListener("click", function() {
   }
 });
 
+button.addEventListener("click", changeColor);
+
 function changeColor() {
     const currentBg = document.body.style.backgroundColor;
 
@@ -20,4 +22,3 @@ function changeColor() {
     }
 }
 
-button.addEventListener("click", changeColor);
