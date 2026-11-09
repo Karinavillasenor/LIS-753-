@@ -14,7 +14,7 @@ button.addEventListener("click", function() {
 function toggleBackground() {
     const currentBg = document.body.style.backgroundColor;
     
-    if (currentBg === 'lightblue') {
+    if (currentBg === 'purple') {
         document.body.style.backgroundColor = 'purple';
     } else {
         document.body.style.backgroundColor = 'pink';
