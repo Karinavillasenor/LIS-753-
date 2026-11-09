@@ -10,15 +10,14 @@ button.addEventListener("click", function() {
   }
 });
 
-document.body.style.backgroundColor = "pink";
 function changeColor() {
     document.body.style.backgroundColor = "pink";
     const currentBg = document.body.style.backgroundColor;
     
-    if (currentBg === 'purple') {
-        document.body.style.backgroundColor = 'purple';
-    } else {
+    if (currentBg === 'pink') {
         document.body.style.backgroundColor = 'pink';
+    } else {
+        document.body.style.backgroundColor = 'purple';
     }
 }
 button.addEventListener('click', toggleBackground);
