@@ -2,7 +2,7 @@ const buttons = document.querySelectorAll(".details-button");
 const details = document.querySelectorAll(".program-details");
 
 
-buttons.forEach( function(button)  {
+buttons.forEach( function(button) {
     console.log(buttons);
 
     console.log(button.dataset.target + "was loaded");
