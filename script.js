@@ -13,11 +13,11 @@ button.addEventListener("click", function() {
 function changeColor() {
     const currentBg = document.body.style.backgroundColor;
 
-    if (currentBg === 'pink') {
-        document.body.style.backgroundColor = 'purple';
+    if (currentBg === "pink") {
+        document.body.style.backgroundColor = "purple";
     } else {
-        document.body.style.backgroundColor = 'pink';
+        document.body.style.backgroundColor = "pink";
     }
 }
 
-button.addEventListener('click', changeColor);
+button.addEventListener("click", changeColor);
