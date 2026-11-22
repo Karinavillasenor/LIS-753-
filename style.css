@@ -89,6 +89,7 @@ table caption {
     margin: 0 auto;
     max-width: 98%;
     box-sizing: border-box;    
+    overflow: hidden;
 }
 
 #main-navigation ul {
@@ -124,6 +125,7 @@ main {
 
 main article {
     width: calc(100%-280px-60px);
+    min-width: 0;
 }
 
 main article table {
@@ -150,10 +152,12 @@ main aside {
 
 #about-the-program img {
     display: block;
+    max-width: 100%;
     width: 100%;
     height: auto;
     object-fit: contain;
     margin: 20px auto;
+    box-sizing: border-box;
 }
 
 .column {
@@ -163,16 +167,6 @@ main aside {
 .upcoming-programs {
     margin-bottom: 60px;
 }
-@media screen and (max-width: 767px) {
 
-    #about-the-program img {
-        width: 90%;
-        max-width: 350px;
-        height: auto;
-        margin: 20px auto;
-        display: block;
-    }
-
-}
 
     
