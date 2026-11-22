@@ -89,22 +89,21 @@
 <form id="registration-form">
   <div>
     <label for="name">Your Name</label>
-    <input type="text" id="name" name="name" placeholder="Your Name" id="registration-name" required>
+    <input type="text" id="registration-name" name ="name" placeholder="Your Name" required>
   </div>
+  
   <div>
     <label for="email">Your Email</label>
     <input type="email" id="email" name="email" placeholder="Your Email">
   </div>
+  
   <div>
-    <label for="program">Select a program:</label>
+    <label for="registration-program">Select a program:</label>
     <select name="program" id="registration-program" required>
       <option value="Book Club">Book Club</option>
       <option value="Story Time">Story Time</option>
       <option value="Genealogy">Genealogy</option>
     </select>
-</form>
-
-<p id="confirmation-message" hidden></p>
   </div>
 
   <fieldset>
@@ -124,6 +123,8 @@
     <input type="submit" value="Register">
   </div>
 </form>
+
+  <p id="confirmation-message" hidden></p>
 </aside>
   
 </main>
