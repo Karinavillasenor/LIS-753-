@@ -26,18 +26,18 @@ buttons.forEach( function(button) {
 });
 
 const form = document.querySelector("#registration-form");
+const confirmation = document.querySelector("#confirmation-message");
 
+console.log(confirmation);
+            
 form.addEventListener("submit", function(event) {
+    
     event.preventDefault();
 
     const name = document.querySelector("#registration-name").value;
     const program = document.querySelector("#registration-program").value;
 
     const message = "Thanks, " + name +", for registering for " + program + "!";
-
-    console.log(message);
-
-    const confirmation = document.querySelector("#confirmation-message");
 
     confirmation.textContent = message;
 
