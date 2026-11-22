@@ -144,13 +144,13 @@ main aside {
 
 }
 
-.h2 {
+h2 {
     text-align: center;
     margin-top: 60px;
     margin-bottom: 30px;
 }
 
-.h2 img {
+h2 img {
     width: 100%
     max-width: 1000px;
     height: 350px;
