@@ -35,6 +35,12 @@ form.addEventListener("submit", function(event) {
 
     const message = "Thanks, " + name +", for registering for " + program + "!";
 
-    console.log(message)
+    console.log(message);
+
+    const confirmation = document.querySelector("#confirmation-message");
+
+    confirmation.textContent = message;
+
+    confirmation.hidden = false; 
 
 });
