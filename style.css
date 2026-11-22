@@ -143,3 +143,18 @@ main aside {
     padding: 25px 24px;
 
 }
+
+.about-program {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.about-program img {
+    width: 100%
+    max-width: 1000px;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
