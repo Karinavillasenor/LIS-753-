@@ -136,4 +136,9 @@ main aside {
     width: 280px;
 }
   
-    
+#confirmation-message {
+    border: 1px solid pink;
+    background-color: #FFEDF4;
+    padding: 12px 24px;
+
+}
