@@ -2,8 +2,6 @@ body {
     background: rgb(185, 171, 171)
 }
 
-margin
-
 h1,h2 { 
     font-family: "Gill Sans", sans-serif;
     font-size: 32px;
@@ -89,7 +87,7 @@ table caption {
     padding: 12px;
     margin: 0 auto;
     max-width: 98%;
-    box-szing: border-box;    
+    box-sizing: border-box;    
 }
 
 #main-navigation ul {
@@ -102,10 +100,10 @@ table caption {
 }
 
 @media all and (min-width: 375px) {
-    
-
+}
 
 @media all and (min-width: 768px) {
+}
 
 #main-navigation ul {
     flex-direction: row;
