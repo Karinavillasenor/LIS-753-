@@ -163,6 +163,16 @@ main aside {
 .upcoming-programs {
     margin-bottom: 60px;
 }
+@media screen and (max-width: 767px) {
 
+    #about-the-program img {
+        width: 90%;
+        max-width: 350px;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
+
+}
 
     
