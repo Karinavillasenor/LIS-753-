@@ -146,17 +146,22 @@ main aside {
 
 #about-the-program {
     text-align: center;
+    width: 100%;
     margin-top: 60px;
     margin-bottom: 30px;
 }
 
 #about-the-program img {
+    display: block;
     width: 100%;
     max-width: 1200px;
     height: 350px;
     object-fit: cover;
-    display: block;
     margin: 20px auto;
+}
+
+.column {
+    width: 100%;
 }
 
 .upcoming-programs {
